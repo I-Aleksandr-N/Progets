@@ -8,9 +8,9 @@ from decimal import Decimal
 pos_inf = Decimal('Infinity')
 num = int(input("Введите числоЖ "))
 x = 19
-if num in range(-14,13):
+if num in range(-14, 13):
     print(True)
-elif num in range(15,17):
+elif num in range(15, 17):
     print(True)
 elif x <= num < pos_inf:
     print(True)
